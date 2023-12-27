@@ -40,7 +40,7 @@ const Contact = () => {
             <a href="mailto:hichamouartassi@gmail.com">Send a message</a>
           </article>
         </div>
-        <form ref={formRef} onSubmit={handleSubmit}>
+        <form action="https://usebasin.com/f/d31576f87969" method="POST" target='_blank'>
           <input
             type="text"
             placeholder="Your Full Name"
@@ -52,6 +52,7 @@ const Contact = () => {
             placeholder="Your Email"
             name="user_email"
             required
+            id='email'
           />
           <textarea
             placeholder="Your message"
